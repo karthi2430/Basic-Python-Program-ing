@@ -1,0 +1,97 @@
+#print the name 
+print("hello world")
+
+
+#print the 2 numbers
+num1=int(input("Enter"))
+num2=int(input("enter"))
+print(num1)
+print(num2)
+
+
+#sum of 2 numbers
+num1=int(input("Enter"))
+num2=int(input("enter"))
+a=num1+num2
+print(" sum of two numbers is:",a)
+
+
+#cascading two numbers
+num1=input("enter first name")
+num2=input("enter seconed name")
+c=num1+num2
+print("cascading of two name is:",c)
+
+
+#swaping of two numbers with 3rd variable
+a=int(input("enter first name"))
+b=int(input("enter seconed name"))
+a=a+b
+b=a-b
+a=a-b
+print("after swaping:",a)
+print("after swaping;",b)
+
+
+#primitive
+print(10,type(10))
+print(12.365,type(12.365))
+print(True,type(True))
+
+
+#avg of 3 numbers
+a=int(input("Enter the value of a"))
+b=int(input("Enter the value of b"))
+c=int(input("Enter the value of c"))
+sum=a+b+c
+avg=sum/3
+print("avg of three numbers:",avg)
+
+
+#convert minutes to seconds
+a=int(input("enter the value"))
+seconds=a*60
+print("min in seconds is:",seconds)
+
+
+#multiply two numbers
+a=int(input("Enter the value of a"))
+b=int(input("Enter the value of b"))
+mul=a*b
+print("multiplication of two numbers is:",mul)
+
+
+#avg of three numbers
+a=int(input("Enter the value of a"))
+b=int(input("Enter the value of b"))
+c=int(input("Enter the value of c"))
+x=a+b+c/3
+print("the AVG is:",x)
+
+
+#multiply floating point 
+float_num1=2.36
+float_num2=4.78
+multiply=float_num1*float_num2
+print("result:",multiply)
+
+
+#largest of 3 numbers
+a=int(input("Enter the number:"))
+b=int(input("Enter the numbers:"))
+c=int(input("Enter the numbers:"))
+largest=max(a,b,c)
+print("result;",largest)
+
+
+#check the age 
+age=int(input("enter the your age:"))
+if(age<13):
+    print("child")
+elif(age<18):
+    print("teenager")
+else:
+    print("adult")
+
+
+#check the marks
